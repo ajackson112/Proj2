@@ -1,0 +1,48 @@
+#head{
+	text-align:center;
+	color: #FE2E2E;
+}
+
+td.blank{
+	padding-left:150px;
+}
+
+body{
+	background:blue;	 	
+	background-size:cover;
+}
+
+td{
+	padding:9px;
+	border: 4px groove transparent;
+}
+
+td:hover{
+	border: 4px groove #FE2E2E;
+}
+
+img.images{
+	width:145px;
+	height:215px;
+}
+td.blank
+{
+border:none;
+}
+table.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+h6
+{
+color: #FE2E2E;
+}
+
+#menubar body {
+  font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding: 20px 50px 150px;
+  font-size: 13px;
+  text-align: center;
+  background: #E3CAA1;
+}
+
