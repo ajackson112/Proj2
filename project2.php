@@ -28,6 +28,7 @@ body{
 	</div>
 </div>
 
+<div id="game">
 <table class="center">
 <tr>
 <td><a href="project2m.html"><img class="images" src=<?php print $_POST["card"]?>></a> </td>
@@ -48,7 +49,7 @@ body{
 <td><img class="images" src="<?php print $_POST["card"]?>" > </td>
 </tr>
 </table>
-
+</div>
 
 </body>
 <h6>ROBOT SOLITAIRE</h6>

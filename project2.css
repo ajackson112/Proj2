@@ -3,6 +3,15 @@
 	color: #FE2E2E;
 }
 
+#game{
+	border:5px solid black;
+	background:url("gamebg.jpg");
+	padding:20px;
+	margin-left:300px;
+	margin-right:300px;
+	margin-top:20px;
+}
+
 td.blank{
 	padding-left:150px;
 }
