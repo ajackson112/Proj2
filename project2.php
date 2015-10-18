@@ -5,10 +5,6 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-<?php
-   $_SESSION["background"] = $_POST['background'];
-   $_SESSION["card"] = $_POST['card'];
-?>
 <style>
 body{
 	background:url("<?php print $_SESSION["background"]?>");	 	
@@ -35,7 +31,7 @@ body{
 <div id="game">
 <table class="center">
 <tr>
-<td><a href="project2m.php"><img class="images" src=<?php print $_POST["card"]?>></a> </td>
+<td><a href="project2m.php"><img class="images" src=<?php print $_SESSION["card"]?>></a> </td>
 <td class="blank"></td>
 <td class="blank"></td>
 <td><img class="images" src="two.png" > </td>
